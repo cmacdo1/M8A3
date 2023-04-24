@@ -1,0 +1,106 @@
+
+Request: GET /api/signup at Mon Apr 24 2023 11:31:45 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 6.992 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:33:19 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 5.593 ms 
+
+Request: GET / at Mon Apr 24 2023 11:36:54 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+Hello World
+Response: 200 10.852 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:37:48 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 34.654 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:41:29 GMT-0700, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 6.765 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:50:36 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 6.060 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:51:31 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 5.364 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:52:55 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 4.879 ms 
+
+Request: GET / at Mon Apr 24 2023 11:53:03 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+Hello World
+Response: 200 4.513 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:53:12 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 1.492 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:57:00 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 7.544 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 11:59:34 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 500 84.277 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 12:00:03 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login</title>
+</head>
+    <body>
+        <main>
+            <form action="/api/login" class="form-control" method="POST">
+                
+                <div class="form-control mx-auto" style="width: 200px;">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required placeholder="email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="password">
+                </div>
+                <button class="btn" type="submit">Login</button>
+            </form>
+        </main>
+    </body>
+</html>
+Response: 200 14.913 ms 
+
+Request: GET /css/styles.css at Mon Apr 24 2023 12:00:03 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 2.421 ms 
+
+Request: GET /api/signup at Mon Apr 24 2023 12:05:10 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login</title>
+</head>
+    <body>
+        <main>
+            <form action="/api/login" class="form-control" method="POST">
+                
+                <div class="form-control mx-auto" style="width: 200px;">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required placeholder="email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="password">
+                </div>
+                <button class="btn" type="submit">Login</button>
+            </form>
+        </main>
+    </body>
+</html>
+Response: 200 27.970 ms 
+
+Request: GET /css/styles.css at Mon Apr 24 2023 12:05:10 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response: 404 30.108 ms 
